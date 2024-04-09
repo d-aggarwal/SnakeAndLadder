@@ -1,8 +1,8 @@
 package coordinates;
 
 public class Coordinates {
-    int row;
-    int col;
+ public   int row;
+ public   int col;
 
     public Coordinates(int row ,int col) {
         this.row = row;
