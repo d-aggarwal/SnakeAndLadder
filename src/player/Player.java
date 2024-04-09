@@ -1,5 +1,7 @@
 package player;
 
+import java.util.Scanner;
+
 public class Player {
     private String name;
     private String address;
@@ -14,6 +16,24 @@ public class Player {
         this.contactnumber = contactnumber;
         this.emailid = emailid;
         this.age = age;
+
+    }
+
+    public void setPlayerDetailsWithUserInput() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter player name");
+        String name = sc.next();
+        System.out.println("Enter player emailid");
+        String emailId = sc.next();
+        System.out.println("Enter player age");
+        int age = sc.nextInt();
+        System.out.println("Enter player address");
+        String address = sc.next();
+        System.out.println("Enter player contactno.");
+        String contactno = sc.next();
+
+        this.setPlayerDetails(name,address,contactno,emailId,age);
+
 
     }
 
