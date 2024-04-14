@@ -27,7 +27,7 @@ public class Game {
     public void play() {
         while (true) {
             int num = dice.diceRoll();
-            System.out.println(players[turn].getPlayerName()+" rolled ->" + num + places[turn]);
+            System.out.println(players[turn].getPlayerName()+" rolled ->" + num + "[" + places[turn].getRow()+","+ places[turn].getCol() +"]");
 
          if( !isAllowed[turn]) {
              if(num!=1){
