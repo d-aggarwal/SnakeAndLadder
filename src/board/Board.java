@@ -41,5 +41,9 @@ public class Board {
 
 
     }
+
+    public int getSize() {
+        return this.size;
+    }
     
 }
