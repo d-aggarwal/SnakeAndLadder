@@ -7,8 +7,8 @@ import java.util.jar.JarEntry;
 
 public class Board {
     int size;
-    String [] [] board;
-    HashMap<String, Jumper> jumpers;
+ public    String [] [] board;
+   public  HashMap<String, Jumper> jumpers;
 
     public Board(int size,HashMap<String,Jumper> jumpers) {
         this.size = size;

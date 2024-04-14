@@ -19,7 +19,7 @@ public class App {
 //    System.out.println(p1.getPlayerName());
 //    System.out.println(p2.getPlayerName());
 
-Board b = new Board(10);
+Board b = new Board(10,map);
 b.printBoard();
 
 
